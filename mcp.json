@@ -1,0 +1,51 @@
+{
+  "mcpServers": {
+    "roger-bacon-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "TITAN_PROTOCOL": "ROGERBACON",
+        "TARGET_CHAIN": "Solana",
+        "FIPS_203_LEVEL": "ML-KEM-768",
+        "FIPS_204_LEVEL": "ML-DSA-65"
+      },
+      "tools": [
+        {
+          "name": "calculate_convex_lens_magnification",
+          "description": "Computes focal length and visual angle magnification for reading glasses and telescopes",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "curvature_radius_mm": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "curvature_radius_mm"
+            ]
+          }
+        },
+        {
+          "name": "verify_experimental_observation",
+          "description": "Applies 4-step empirical verification against scholastic authority dogmas",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "experiment_hash": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "experiment_hash"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
