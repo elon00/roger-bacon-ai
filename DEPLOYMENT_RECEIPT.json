@@ -1,0 +1,14 @@
+{
+  "project": "roger-bacon-ai",
+  "network": "Solana Devnet",
+  "cluster_url": "https://api.devnet.solana.com",
+  "mint_address": "vdnHRwdVW7Qe7RKkV7rTyf72cH3QvyPq1PssTXfgX6e",
+  "vault_account": "FGBq83L2dHnAqYNQJhvEXJo18z1cenq3875d3Qect617",
+  "initial_supply": 1000000,
+  "decimals": 9,
+  "creation_tx": "RyPe3T3tEzcQSAoGsShZPDVURUTfpKa3UeVGz5784CD5DqsdAZzKGvToa5uvWvyrhrShVu9WvdKmWdA1cWBzjy6",
+  "account_tx": "xs3zXNyvbBFtTokBEB2p5x5kdgU1Qgw94itu35pW6L1kxwQD6T2P9bYkzQh4xpoYr3PaP5zYuLKsKXNQZFFDh77",
+  "mint_tx": "4CemDG9RJegHedBNPYHQnFJSsdqy6mTU1wv6f3AHH18ViV9ewFmkdBpJE2WYSsW4AsyTcA5h6HSupL7LEh7ijKcp",
+  "solana_explorer_mint": "https://explorer.solana.com/address/vdnHRwdVW7Qe7RKkV7rTyf72cH3QvyPq1PssTXfgX6e?cluster=devnet",
+  "timestamp": "2026-10-26 16:56:35 UTC"
+}
